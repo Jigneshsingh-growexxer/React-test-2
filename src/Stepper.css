@@ -23,6 +23,10 @@
   z-index: -1;
 }
 
+.step-line.progress {
+  background-color: blue;
+}
+
 .step {
   display: flex;
   flex-direction: column;
@@ -69,6 +73,12 @@
 }
 
 .step.active h3,
-.step.completed h3 {
+.step.active p {
   font-weight: bold;
+  color: black;
+}
+
+.step h3,
+.step p {
+  color: lightgray;
 }
